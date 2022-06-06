@@ -1,0 +1,19 @@
+GET https://space.sdc.tf/api/status?verbose=true
+
+###
+
+POST https://space.sdc.tf/api/rocketLaunch
+content-type: application/json
+
+{
+    "rocket": "triton",
+    "launchTime":"12:00",
+    "pumpID":4,
+    "token":"yiLYDykacWp9sgPMluQeKkANeRFXyU3ZuxBrj2BQ"
+
+}
+
+
+###
+
+GET https://space.sdc.tf/api/fuel
